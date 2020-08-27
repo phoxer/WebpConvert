@@ -1,0 +1,16 @@
+{
+  "name": "webpexport",
+  "version": "1.0.0",
+  "description": "Export images to Webp",
+  "main": "src/index.js",
+  "scripts": {
+    "convert": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phoxer",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^6.0.0"
+  }
+}
